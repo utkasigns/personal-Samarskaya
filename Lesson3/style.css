@@ -4,6 +4,9 @@ table {
 td {
     border: 1px solid rgb(47, 71, 177);
 }
+th {
+    border: 1px solid rgb(39, 59, 146);
+}
 table {
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,213,255,0.34077380952380953) 0%, rgba(221,255,0,0.4948354341736695) 46%, rgba(255,0,67,0.48082983193277307) 87%);
@@ -13,5 +16,5 @@ th {
 }
 img {
     width: 100px;
-    height: 100px;
+    height: 75px;
 }

@@ -1,0 +1,8 @@
+body {
+    color: rgba(150, 106, 24, 0.911)
+}
+
+img {
+    max-width: 1000px;
+    object-fit: contain;
+}

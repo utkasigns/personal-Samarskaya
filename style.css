@@ -1,0 +1,37 @@
+.title {
+    text-align: center;
+}
+.lesson {
+    height: 200px;
+    width: 300px;
+    border: solid 5px;
+    border-radius: 10px;
+    border-color: white;
+}
+.intro {
+    padding-bottom: 7%;
+    padding-left: 5%;
+}
+.view {
+    border: solid 3px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border-color: rgb(84, 197, 201);
+    padding: 5px;
+    color: rgb(37, 129, 136);
+    text-decoration: none;
+}
+.lesson {
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: inline-block;
+}
+.card {
+    color: rgb(117, 97, 143);
+    font-size: 18px;
+    display: inline;
+    margin-left: 45px;
+}
+.view-card {
+    margin-top: 20px;
+}

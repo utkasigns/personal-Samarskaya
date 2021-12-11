@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.logo {
+    height: 41.34100341796875px;
+    width: 45.11500549316406px;
+}
+.container {
+    max-width: 1641px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+}
+.container-flex {
+    display: flex;
+}
+.main-part {
+    position: absolute;
+}
+.secondary-part {
+    position: relative;
+    top: 23px;
+}
+.logo {
+    height: 41px;
+    width: 45px;
+    margin-right: 15px;
+}
+.right {
+    position: absolute;
+    right: -1px;
+}
+.left {
+    position: absolute;
+    left: 0;
+}
+.marico {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+a {
+    color: rgb(187, 187, 187);
+    text-align: center;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.links {
+    margin-top: 14px;
+}
+a:hover {
+    color: rgb(71, 216, 197);
+}
+.use-cases {
+    padding-right: 0;
+}

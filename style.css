@@ -1,5 +1,6 @@
 .title {
     text-align: center;
+    margin-top: 200px;
 }
 .lesson {
     height: 200px;
@@ -7,6 +8,7 @@
     border: solid 5px;
     border-radius: 10px;
     border-color: white;
+    margin: 25px;
 }
 .intro {
     padding-bottom: 7%;
@@ -23,8 +25,10 @@
 }
 .lesson {
     background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     display: inline-block;
+}
+.lesson:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 .card {
     color: rgb(117, 97, 143);
@@ -34,4 +38,21 @@
 }
 .view-card {
     margin-top: 20px;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.text {
+    margin-left: 50px;
+}
+.container {
+    max-width: 1300px;
+    background-color: rgb(223, 252, 225);
+    margin: 100px;
+    border: solid 20px rgb(223, 252, 225);
+    border-radius: 10px;
+}
+.container:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }

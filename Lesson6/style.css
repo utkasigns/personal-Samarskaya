@@ -24,3 +24,89 @@
 div {
     text-align:center;
 }
+.block {
+    height: 70px;
+}
+.block1 {
+    background-color: rgb(255, 68, 68);
+}
+.block2 {
+    background-color: rgb(84, 192, 84);
+}
+.block3 {
+    background-color:blue;
+}
+.second div {
+    display: inline-block;
+    width: 33.333%;
+}
+.block4 {
+    background-color: rgb(255, 60, 60);
+}
+.block5 {
+    background-color: rgb(84, 192, 84);
+}
+.block6 {
+    background-color:blue;
+}
+.second .block7 {
+    background-color: rgb(248, 248, 91);
+    width: 100%;
+}
+.second .block8 {
+    background-color: rgb(153, 153, 153);
+    width: 50%;
+}
+.second .block9 {
+    background-color: rgb(100, 100, 100);
+    width: 50%;
+}
+
+
+.third {
+    background-color: rgb(151, 255, 194);
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    margin-right: 65%;
+}
+.third div {
+    display: inline-block;
+    height: 180px;
+    width: 25%;
+    border: solid 10px;
+    border-color: rgb(151, 255, 194);
+}
+.third .block10 {
+    background-color: rgb(255, 68, 68);
+
+}
+.third .block11 {
+    background-color: rgb(248, 248, 91);
+}
+.third .block12 {
+    background-color: rgb(84, 192, 84);
+}
+
+
+.wrapper {
+    border: solid 3px;
+    border-color: #000000;
+    padding: 20px;
+    display: flex;
+    margin-right: 50%;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+.wrapper .one,
+.wrapper .two,
+.wrapper .three
+{
+    border: solid 3px;
+    height: 100px;
+    min-width: 200px;
+}
+.wrapper-column.wrapper {
+    flex-direction: column;
+}

@@ -7,6 +7,10 @@ body {
     max-width: 1240px;
     margin: 0 auto;
 }
+.section {
+    padding-top: 130px;
+    background-color: white;
+}
 .dudeshape {
     font-family: 'Red Hat Display';
     font-style: italic;
@@ -47,6 +51,7 @@ header img {
     position: absolute;
     right: 0;
     top: 0;
+    margin-top: 173px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -61,24 +66,27 @@ header .container-flex {
 .main-text {
     width: 621px;
     height: 140px;
+    font-weight: 500;
     font-size: 56px;
     line-height: 70px;
+}
+.first-st {
+    max-width: 506px;
 }
 .secondary-text {
     font-weight: normal;
     font-size: 20px;
     line-height: 32px;
-    max-width: 516px;
     color: #555555;
     margin-bottom: 30px;
 }
 .search_input {
     outline: none;
-    width: 326px;
-    height: 48px;
+    width: 306px;
+    height: 28px;
     outline: none;
     border: none;
-    border: solid 1px #f2f2f2;
+    border: solid 10px #ffffff;
 }
 
 .s_scan {
@@ -88,14 +96,17 @@ header .container-flex {
     width: 20px;
     height: 20px;
 }
+.search {
+    position: relative;
+}
 .search_input {
-    position: absolute;
+    position: relative;
     margin-bottom: 24px;
 }
 .search_img {
-    position: relative;
-    top: 7px;
-    left: 283px;
+    position: absolute;
+    top: 8px;
+    left: 289px;
 }
 .shop_now {
     border: solid 16px;
@@ -109,6 +120,22 @@ header .container-flex {
     font-size: 18px;
     line-height: 24px;
     background-color: #402F2C;
-    position: relative;
-    top: 80px;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 109px;
+    border-left: solid 32px #402F2C;
+    border-right: solid 32px #402F2C;
+}
+
+.intermediate-sec {
+    background-color: white;
+}
+.second-mt {
+    width: 513px;
+    height: 70px;
+    margin: 0;
+}
+.second-st {
+    width: 714px;
+    height: 75px;
 }

@@ -1,0 +1,131 @@
+.freddy {
+    position: relative;
+    /* top: 50px; */
+    /* left: 20px; */
+    max-width: 218px;
+    max-height: 250px;
+    /* margin: 0 auto; */
+}
+.body {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(219, 154, 70);
+    border: solid 8px;
+    border-color: rgb(33, 28, 44);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+.ear {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(219, 154, 70);
+    border: solid 8px;
+    border-color: rgb(33, 28, 44);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    
+}
+.ear-left {
+    left: 0;
+}
+.ear-right {
+    right: 0;
+}
+.eye {
+    height: 10px;
+    width: 10px;
+    background-color:  rgb(33, 28, 44);
+    border: solid 8px;
+    border-color: rgb(33, 28, 44);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    top: 90px;
+}
+.absolute-right {
+    right: 40px;
+}
+.absolute-left {
+    left: 40px;
+}
+.brow {
+    height: 5px;
+    width: 50px;
+    background-color:  rgb(33, 28, 44);
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    z-index: 3;
+    border: solid 5px;
+    border-color: rgb(33, 28, 44);
+    border-radius: 15%;
+}
+.brow-left {
+    left: 20px;
+}
+.brow-right {
+    right: 20px;
+}
+.cheek {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border: solid 8px;
+    border-color: rgb(33, 28, 44);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 4;
+    top: 110px;
+    position: absolute;
+}
+.cheek-left {
+    left: 47%;
+}
+.cheek-right {
+    right: 47%;
+}
+.white-shit {
+    height: 19px;
+    width: 12px;
+    background-color:  rgb(255, 255, 255);
+    position: absolute;
+    top: 124px;
+    z-index: 5;
+    left: 105px;
+}
+.nose {
+    height: 10px;
+    width: 17px;
+    background-color:  rgb(66, 57, 85);
+    border: solid 6px;
+    border-color: rgb(66, 57, 85);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 6;
+    top: 110px;
+    left: 95px;
+}
+.ear-right:hover ~ .eye.absolute-left {
+    top: 80px;
+    left: 50px;
+    transition: 1s;
+}
+.ear-right:hover ~ .eye.absolute-right {
+    top: 80px;
+    right: 35px;
+    transition: 1s;
+}
+.ear-right:hover ~ .brow.brow-left {
+    transform: rotate(15deg);
+    transition: 1s;
+}
+.ear-right:hover ~ .brow.brow-right {
+    transform: rotate(-15deg);
+    transition: 1s;
+    right: 11px;
+}
